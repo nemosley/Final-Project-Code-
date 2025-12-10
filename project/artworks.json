@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Sunset Waves",
+    "artist": "Nova Lee",
+    "style": "landscape",
+    "mood": "calm",
+    "year": 2024,
+    "color": "#ffb27a",
+    "description": "Soft orange and pink bands that feel like the last light over the ocean."
+  },
+  {
+    "id": 2,
+    "title": "City Static",
+    "artist": "Shawn Carter",
+    "style": "abstract",
+    "mood": "energetic",
+    "year": 2023,
+    "color": "#ff6b6b",
+    "description": "Bright blocks of color stacked like noisy city buildings at night."
+  },
+  {
+    "id": 3,
+    "title": "Quiet Corners",
+    "artist": "Linda Patel",
+    "style": "portrait",
+    "mood": "peaceful",
+    "year": 2022,
+    "color": "#6ec6ff",
+    "description": "A soft blue portrait focusing on light and shadow instead of details."
+  },
+  {
+    "id": 4,
+    "title": "Neon Paths",
+    "artist": "Jimmy Kim",
+    "style": "digital",
+    "mood": "energetic",
+    "year": 2025,
+    "color": "#b388ff",
+    "description": "Glowing lines that twist and cross, like roads in a digital map."
+  },
+  {
+    "id": 5,
+    "title": "Forest Echo",
+    "artist": "Sara Ortiz",
+    "style": "landscape",
+    "mood": "calm",
+    "year": 2021,
+    "color": "#81c784",
+    "description": "Layers of green that suggest trees without fully drawing them."
+  },
+  {
+    "id": 6,
+    "title": "Midnight Mirror",
+    "artist": "Rico Jones",
+    "style": "abstract",
+    "mood": "moody",
+    "year": 2024,
+    "color": "#455a64",
+    "description": "Dark blues and greys that look like reflections in a nighttime window."
+  }
+]

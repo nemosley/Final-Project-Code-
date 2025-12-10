@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Class Art Gallery</h1>
+    <p class="intro">
+        This is a small art gallery made with JavaScript. You can search, filter, and click on a card to see details.
+    </p>
+
+    <!-- Controls section (form + buttons) -->
+    <section class="controls">
+        <form id="filterForm">
+            <label for="searchInput">Search (title, artist, mood):</label><br>
+            <input
+                type="text"
+                id="searchInput"
+                name="search"
+                placeholder="Type a word and press Apply"
+                aria-label="Search artworks"
+            ><br><br>
+
+            <label for="styleSelect">Filter by style:</label><br>
+            <select id="styleSelect" name="style">
+                <option value="all">All styles</option>
+                <option value="abstract">Abstract</option>
+                <option value="landscape">Landscape</option>
+                <option value="portrait">Portrait</option>
+                <option value="digital">Digital</option>
+            </select><br><br>
+
+            <button type="submit">Apply Filters</button>
+        </form>
+
+        <div class="button-row">
+            <button type="button" id="showAllBtn">Show All</button>
+            <button type="button" id="randomBtn">Random Highlight</button>
+        </div>
+
+        <p id="statusText" class="status-text" aria-live="polite"></p>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section">
+        <h2>Gallery</h2>
+        <div id="gallery" class="gallery">
+            <!-- Cards added with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Simple details area  -->
+    <section class="details-section">
+        <h2>Artwork Details</h2>
+        <div id="detailsBox" class="details-box">
+            <p>Select a card to see details here.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Class Art Gallery · Final JS Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
